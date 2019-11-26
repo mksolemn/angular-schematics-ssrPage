@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -p tsconfig.json --watch",
+    "generate:schematics:hello": "schematics .:hello DemoSchematics --debug=false",
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "keywords": [
