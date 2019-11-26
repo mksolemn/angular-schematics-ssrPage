@@ -5,7 +5,13 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -p tsconfig.json --watch",
-    "generate:schematics:hello": "schematics .:hello DemoSchematics --debug=false",
+
+    "generate:hello:schematics": "schematics .:hello DemoSchematics --debug=false",
+    "generate:hello:dts": "cd ./src/page && npx -p dtsgenerator dtsgen schema.json -o schema.d.ts",
+
+    "generate:page:schematics": "schematics .:page PageDemoSchematics --debug=false",
+    "generate:page:dts": "cd ./src/page && npx -p dtsgenerator dtsgen schema.json -o schema.d.ts",
+
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "keywords": [

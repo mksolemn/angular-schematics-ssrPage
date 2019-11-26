@@ -30,7 +30,6 @@
   ],
   "exclude": [
     "src/**/*/templates/**/*",
-    "src/*/templates/**/*",
-    "src/hello/templates/**/*"
+    "src/*/templates/**/*"
   ]
 }
