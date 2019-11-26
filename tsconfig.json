@@ -5,6 +5,7 @@
       "es2018",
       "dom"
     ],
+    "experimentalDecorators": true,
     "declaration": true,
     "module": "commonjs",
     "moduleResolution": "node",
