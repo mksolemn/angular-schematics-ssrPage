@@ -29,7 +29,7 @@
     "src/**/*"
   ],
   "exclude": [
-    "src/**/*/templates/**/*",
-    "src/*/templates/**/*"
+    "src/**/*/templates/**/*.ts",
+    "src/*/templates/**/*.ts"
   ]
 }
