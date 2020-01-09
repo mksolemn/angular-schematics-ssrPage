@@ -1,0 +1,276 @@
+[
+  {
+    "form_control_group": [
+      {
+        "form_group_title": "Property type"
+      },
+      {
+        "data": [
+          {
+            "label": "Title",
+            "placeholder": "Title",
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "text",
+              "form_control_name": "title",
+              "cssClass": "_lm-title"
+            }
+          },
+          {
+            "label": "Description",
+            "placeholder": "Description",
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "textarea",
+              "form_control_name": "description",
+              "cssClass": "_lm-description"
+            }
+          },
+          {
+            "label": "Property Type",
+            "placeholder": "Property Type",
+            "values": [
+              "Apartment",
+              "House",
+              "Unique Space",
+              "Bed & Breakfast",
+              "Boutique hotel",
+              "Shop",
+              "Storage Space"
+            ],
+            "functional_fields": {
+              "required": true,
+              "icon": [],
+              "form_control_type": "select",
+              "form_control_name": "property_type",
+              "cssClass": "_lm-property-type"
+            }
+          },
+          {
+            "label": "Rental Type",
+            "values": [
+              "Entire Place",
+              "Private Room",
+              "Shared Room"
+            ],
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "select",
+              "form_control_name": "rental_type",
+              "cssClass": "_lm-description"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "form_control_group": [
+      {
+        "form_group_title": "Bedrooms",
+        "addition": true,
+        "addition_label": "Add bedroom",
+        "addition_counter": true,
+        "form_group_class": "addition-field-group grouped-by-two",
+        "form_group_icon": ["king_bed"]
+      },
+      {
+        "data": [
+          {
+            "label": "Number of beds",
+            "values": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "functional_fields": {
+              "conditional" : {
+                "type": "number-select",
+                "form_field": "number_of_bedrooms"
+              },
+              "required": true,
+              "form_control_type": "number-select",
+              "form_control_name": "number_of_bedrooms",
+              "addition": true,
+              "cssClass": "_lm-number-of-bedrooms"
+            }
+          },
+          {
+            "label": "How many sleeps?",
+            "values": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "functional_fields": {
+              "conditional" : {
+                "type": "number-select",
+                "form_field": "number_of_bedrooms"
+              },
+              "required": true,
+              "form_control_type": "number-select",
+              "form_control_name": "number_of_bedrooms",
+              "addition": true,
+              "cssClass": "_lm-number-of-bedrooms"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "form_control_group": [
+      {
+        "form_group_title": "Rental pricing"
+      },
+      {
+        "data": [
+          {
+            "label": "Rental Period",
+            "values": [
+              "Daily",
+              "Weekly",
+              "Monthly",
+              "Yearly"
+            ],
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "select",
+              "form_control_name": "rental_period"
+            }
+          },
+          {
+            "label": "Price per period (EUR)",
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "number",
+              "form_control_name": "price_per_period"
+            }
+          },
+          {
+            "label": "Available From",
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "date-selector",
+              "form_control_name": "available_from",
+              "cssClass": "_lm-date-select _lm-date-select-from"
+            }
+          },
+          {
+            "label": "Available To",
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "date-selector",
+              "form_control_name": "available_to",
+              "cssClass": "_lm-date-select _lm-date-select-to"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "form_control_group": [
+      {
+        "form_group_title": "Amenities"
+      },
+      {
+        "data": [
+          {
+            "label": "Basics",
+            "values": [
+              "Air conditioning",
+              "Wifi",
+              "Heating",
+              "Washer",
+              "TV"
+            ],
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "select-multiple",
+              "form_control_name": "amenities_basics",
+              "cssClass": "_lm-amenities"
+            }
+          },
+          {
+            "label": "Dining",
+            "values": [
+              "Kitchen",
+              "Coffee maker",
+              "Dishes and silverware",
+              "Dishwasher",
+              "Microwave",
+              "Refrigerator",
+              "Oven"
+            ],
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "select-multiple",
+              "form_control_name": "amenities_dining",
+              "cssClass": "_lm-amenities"
+            }
+          },
+          {
+            "label": "Outdoor",
+            "values": [
+              "Garden or backyard",
+              "BBQ grill"
+            ],
+            "functional_fields": {
+              "required": true,
+              "form_control_type": "select-multiple",
+              "form_control_name": "amenities_outdoor",
+              "cssClass": "_lm-amenities"
+            }
+          },
+          {
+            "label": "Pet Friendly",
+            "value": false,
+            "functional_fields": {
+              "required": false,
+              "form_control_type": "checkbox",
+              "form_control_name": "pet_friendly",
+              "cssClass": "_lm-pet-friendly"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

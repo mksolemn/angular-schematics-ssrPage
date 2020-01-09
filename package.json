@@ -5,9 +5,9 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -p tsconfig.json --watch",
-    "gen:page": "schematics .:hello --debug=false",
-    "generate:hello:schematics": "schematics .:hello DemoSchematics --debug=false",
-    "generate:hello:dts": "cd ./src/hello && npx -p dtsgenerator dtsgen schema.json -o schema.d.ts",
+    "gen:page": "schematics .:locationPage --debug=false",
+    "generate:locationPage:schematics": "schematics .:locationPage DemoSchematics --debug=true",
+    "generate:locationPage:dts": "cd src/location-page && npx -p dtsgenerator dtsgen schema.json -o schema.d.ts",
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
   "keywords": [

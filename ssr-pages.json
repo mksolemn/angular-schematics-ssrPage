@@ -1,0 +1,567 @@
+[
+  {
+    "location": "Attard",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Bahar ic-Caghaq",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Bahrija",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Balzan",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Bidnija",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Birgu",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Birguma",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Birkirkara",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Birzebbugia",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Bormla",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Bugibba",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Burmarrad",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Buskett",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Dingli",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Fgura",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Floriana",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Fontana",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Ghajnsielem",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Gharb",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Gharghur",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Ghasri",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Ghaxaq",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "G'Mangia",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Gudja",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Gzira",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Hal-Far",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Hamrun",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Ibragg",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Iklin",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Isla",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Kalkara",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Kappara",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Kercem",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Kirkop",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Lija",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Luqa",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Madliena",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Maghtab",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Manikata",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Marsa",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Marsalforn",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Marsascala",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Marsaskala",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Marsaxlokk",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Mdina",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Mellieha",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Mgarr",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Mgarr",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Mosta",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Mqabba",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Msida",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Mtarfa",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Munxar",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Nadur",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Naxxar",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Paceville",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Paola",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Pembroke",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Pieta",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Qala",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Qawra",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Qormi",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Qrendi",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Rabat",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Safi",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Salina",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "San Giljan",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "San Gwann",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "San Lawrenz",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "San Pawl il-Bahar",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "San Pawl tat-Targa",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Sannat",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Santa Lucija",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Santa Venera",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "St Julians",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Siggiewi",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Sliema",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Swatar",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Swieqi",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Ta' Qali",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Ta' Xbiex",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Tarxien",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Valletta",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Wardija",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Xaghra",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Xemxija",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Xewkija",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Xghajra",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Xlendi",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Zabbar",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Zebbiegh",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Zebbug",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Zejtun",
+    "meta": {
+      "description": ""
+    }
+  },
+  {
+    "location": "Zurrieq",
+    "meta": {
+      "description": ""
+    }
+  }
+]
+

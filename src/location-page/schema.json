@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "Schema",
+  "title": "Location page with SSR",
+  "description": "Pre-generate pages describing locations",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of ssr page",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "Select source .json file with page list"
+    },
+    "ssrPageData": {
+      "type": [{}],
+      "description": "Json data source file",
+      "$default": {
+        "$source": "argv",
+        "index": 1
+      }
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
