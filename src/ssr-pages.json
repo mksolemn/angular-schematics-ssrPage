@@ -1,567 +1,661 @@
 [
   {
-    "location": "Attard",
+    "name": "Attard",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Bahar ic-Caghaq",
+    "name": "Bahar ic-Caghaq",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Bahrija",
+    "name": "Bahrija",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Balzan",
+    "name": "Balzan",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Bidnija",
+    "name": "Bidnija",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Birgu",
+    "name": "Birgu",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Birguma",
+    "name": "Birguma",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Birkirkara",
+    "name": "Birkirkara",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Birzebbugia",
+    "name": "Birzebbugia",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Bormla",
+    "name": "Bormla",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Bugibba",
+    "name": "Bugibba",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Burmarrad",
+    "name": "Burmarrad",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Buskett",
+    "name": "Buskett",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Dingli",
+    "name": "Dingli",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Fgura",
+    "name": "Fgura",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Floriana",
+    "name": "Floriana",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Fontana",
+    "name": "Fontana",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Ghajnsielem",
+    "name": "Ghajnsielem",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Gharb",
+    "name": "Gharb",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Gharghur",
+    "name": "Gharghur",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Ghasri",
+    "name": "Ghasri",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Ghaxaq",
+    "name": "Ghaxaq",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "G'Mangia",
+    "name": "G'Mangia",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Gudja",
+    "name": "Gudja",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Gzira",
+    "name": "Gzira",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Hal-Far",
+    "name": "Hal-Far",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Hamrun",
+    "name": "Hamrun",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Ibragg",
+    "name": "Ibragg",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Iklin",
+    "name": "Iklin",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Isla",
+    "name": "Isla",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Kalkara",
+    "name": "Kalkara",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Kappara",
+    "name": "Kappara",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Kercem",
+    "name": "Kercem",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Kirkop",
+    "name": "Kirkop",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Lija",
+    "name": "Lija",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Luqa",
+    "name": "Luqa",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Madliena",
+    "name": "Madliena",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Maghtab",
+    "name": "Maghtab",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Manikata",
+    "name": "Manikata",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Marsa",
+    "name": "Marsa",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Marsalforn",
+    "name": "Marsalforn",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Marsascala",
+    "name": "Marsascala",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Marsaskala",
+    "name": "Marsaskala",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Marsaxlokk",
+    "name": "Marsaxlokk",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Mdina",
+    "name": "Mdina",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Mellieha",
+    "name": "Mellieha",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Mgarr",
+    "name": "Mgarr",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Mgarr",
+    "name": "Mgarr",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Mosta",
+    "name": "Mosta",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Mqabba",
+    "name": "Mqabba",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Msida",
+    "name": "Msida",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Mtarfa",
+    "name": "Mtarfa",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Munxar",
+    "name": "Munxar",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Nadur",
+    "name": "Nadur",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Naxxar",
+    "name": "Naxxar",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Paceville",
+    "name": "Paceville",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Paola",
+    "name": "Paola",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Pembroke",
+    "name": "Pembroke",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Pieta",
+    "name": "Pieta",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Qala",
+    "name": "Qala",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Qawra",
+    "name": "Qawra",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Qormi",
+    "name": "Qormi",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Qrendi",
+    "name": "Qrendi",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Rabat",
+    "name": "Rabat",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Safi",
+    "name": "Safi",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Salina",
+    "name": "Salina",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "San Giljan",
+    "name": "San Giljan",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "San Gwann",
+    "name": "San Gwann",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "San Lawrenz",
+    "name": "San Lawrenz",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "San Pawl il-Bahar",
+    "name": "San Pawl il-Bahar",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "San Pawl tat-Targa",
+    "name": "San Pawl tat-Targa",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Sannat",
+    "name": "Sannat",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Santa Lucija",
+    "name": "Santa Lucija",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Santa Venera",
+    "name": "Santa Venera",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "St Julians",
+    "name": "St Julians",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Siggiewi",
+    "name": "Siggiewi",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Sliema",
+    "name": "Sliema",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Swatar",
+    "name": "Swatar",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Swieqi",
+    "name": "Swieqi",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Ta' Qali",
+    "name": "Ta' Qali",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Ta' Xbiex",
+    "name": "Ta' Xbiex",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Tarxien",
+    "name": "Tarxien",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Valletta",
+    "name": "Valletta",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Wardija",
+    "name": "Wardija",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Xaghra",
+    "name": "Xaghra",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Xemxija",
+    "name": "Xemxija",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Xewkija",
+    "name": "Xewkija",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Xghajra",
+    "name": "Xghajra",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Xlendi",
+    "name": "Xlendi",
     "meta": {
+      "title": "",
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Zabbar",
+    "name": "Zabbar",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Zebbiegh",
+    "name": "Zebbiegh",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Zebbug",
+    "name": "Zebbug",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Zejtun",
+    "name": "Zejtun",
     "meta": {
+      "title": "",
       "description": ""
     }
   },
   {
-    "location": "Zurrieq",
+    "name": "Zurrieq",
     "meta": {
+      "title": "",
       "description": ""
     }
   }
 ]
-

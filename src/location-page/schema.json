@@ -4,25 +4,17 @@
   "title": "Location page with SSR",
   "description": "Pre-generate pages describing locations",
   "properties": {
-    "name": {
+    "path": {
       "type": "string",
-      "description": "The name of ssr page",
+      "description": "Path for new module output",
       "$default": {
         "$source": "argv",
         "index": 0
       },
-      "x-prompt": "Select source .json file with page list"
-    },
-    "ssrPageData": {
-      "type": [{}],
-      "description": "Json data source file",
-      "$default": {
-        "$source": "argv",
-        "index": 1
-      }
+      "x-prompt": "Where would you like to deploy pages?"
     }
   },
   "required": [
-    "name"
+    "path"
   ]
 }

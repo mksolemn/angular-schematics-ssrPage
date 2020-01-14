@@ -5,12 +5,15 @@
       "es2018",
       "dom"
     ],
-    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "declaration": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
     "noUnusedParameters": false,
@@ -19,10 +22,14 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strictNullChecks": true,
-    "target": "es6",
+    "target": "es2015",
     "types": [
       "jasmine",
       "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "./typings.d.ts"
     ]
   },
   "include": [

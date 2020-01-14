@@ -7,6 +7,5 @@ import {Component} from '@angular/core'
 })
 export class <%= classify(name) %>Component {
     name = '<%= name %>';
-    ssrPageData = '<%= ssrPageData %>';
 }
-console.log('locationPage <%= name %>');
+console.log('paGen <%= name %>');
