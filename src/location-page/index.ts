@@ -10,7 +10,6 @@ import {
 import {strings} from '@angular-devkit/core';
 import {Schema} from './schema';
 import * as pages from '../ssr-pages.json';
-import {workspace} from '@angular-devkit/core/src/experimental';
 import {buildDefaultPath, getProject, getWorkspace, parseName} from 'schematics-utilities';
 
 interface PageData {
@@ -23,41 +22,47 @@ interface PageData {
 
 export class PaGen {
     constructor(private pages: PageData[],
-                private _options: Schema) {
+                private _options: Schema,
+                private _tree: Tree,
+                private _context: SchematicContext) {
     }
 
     getPagesData(): PageData[] {
-        return (pages as any)['default'];
+        return this.preFormatData((pages as any)['default']);
     }
 
-    getSingleItemData(id: number) {
-        this.pages[id].name = this.formatName(this.pages[id].name);
-        return this.pages[id];
+    preFormatData(data: any[]): PageData[] {
+        data.forEach(data => {
+            data.name = this.formatName(data.name);
+        });
+
+        return data;
     }
 
     formatName(name: string) {
         return name.replace(/[^A-Z0-9]+/ig, '-');
     }
 
+    configureForProject() {
+        const workspace = getWorkspace(this._tree);
+        const projectName = this._options.project || Object.keys(workspace.projects)[0];
+        const project = getProject(workspace, projectName);
+        const path = this._options.path || buildDefaultPath(project as any);
+        const parsedPath = parseName(path, this._options.name);
+    }
+
 }
 
-export function paGen(tree: Tree, _options: Schema, _context: SchematicContext): Rule {
-    const paGen: PaGen = new PaGen(pages, _options);
+export function paGen(_tree: Tree, _options: Schema, _context: SchematicContext): Rule {
+    const paGen: PaGen = new PaGen(pages, _options, _tree, _context);
     const rules: Rule[] = [];
 
-    // const workspace = getWorkspace(tree);
-    // const projectName = _options.project || Object.keys(workspace.projects)[0];
-    // const project = getProject(workspace, projectName);
-    // const path = _options.path || buildDefaultPath(project as any);
-    // const parsedPath = parseName(path, _options.name);
+    //paGen.configureForProject(); //todo: tomastrajas youtube tutorial on schematics
 
-
-
-    console.log('Total pages to generate: ', paGen.getPagesData().length);
     paGen.getPagesData()
         .forEach(page => {
             if (page) {
-                page.name = paGen.formatName(page.name);
+
                 const sourceTemplates = url('./templates');
                 const sourceParametrizedTemplates = apply(sourceTemplates, [
                     template({
