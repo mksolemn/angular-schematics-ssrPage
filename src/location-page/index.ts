@@ -5,11 +5,12 @@ import {
     Rule, SchematicContext,
     template,
     Tree,
-    url
+    url,
+
 } from '@angular-devkit/schematics';
 import {strings} from '@angular-devkit/core';
 import {Schema} from './schema';
-import * as pages from '../ssr-pages.json';
+import * as pages from '../schematics-pages.json';
 import {buildDefaultPath, getProject, getWorkspace, parseName} from 'schematics-utilities';
 
 interface PageData {
@@ -34,6 +35,7 @@ export class PaGen {
     preFormatData(data: any[]): PageData[] {
         data.forEach(data => {
             data.name = this.formatName(data.name);
+            data.meta.description = this.escapeQuotes(data.meta.description);
         });
 
         return data;
@@ -41,6 +43,10 @@ export class PaGen {
 
     formatName(name: string) {
         return name.replace(/[^A-Z0-9]+/ig, '-');
+    }
+
+    escapeQuotes( text: string ) {
+        return text.replace(/'/g, "\\'");
     }
 
     configureForProject() {

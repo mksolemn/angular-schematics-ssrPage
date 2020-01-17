@@ -7,5 +7,7 @@ import {Component} from '@angular/core'
 })
 export class <%= classify(name) %>Component {
     name = '<%= name %>';
+    title = '<%= meta.title %>';
+    description = '<%= meta.description %>';
 }
 console.log('paGen <%= name %>');

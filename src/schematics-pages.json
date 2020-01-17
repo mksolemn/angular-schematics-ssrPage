@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Vilnius",
+    "meta": {
+      "title": "Vilnius City",
+      "description": "Vilnius (Lithuanian pronunciation: [ˈvʲɪlʲnʲʊs] (About this soundlisten), see also other names) is the capital of Lithuania and its largest city, with a population of 580,020 as of 2020.[7] The population of Vilnius functional urban area, that stretches beyond the city limits, is estimated at 697,691 (as of 2017),[10] while according to statistics of Vilnius territorial health insurance fund, there are 723,016 permanent inhabitants (as of June 2019) in Vilnius city and Vilnius district municipalities combined.[11] Vilnius is in the southeast part of Lithuania and is the second largest city in the Baltic states. Vilnius is the seat of the main government institutions of Lithuania and the Vilnius District Municipality."
+    }
+  },
+  {
+    "name": "Valetta",
+    "meta": {
+      "title": "Valetta City",
+      "description": "Valletta (/vəˈlɛtə/, Maltese: il-Belt Valletta, Maltese pronunciation: [ˈvɐlɛ.tɐ]) is the capital city of Malta. Located in the South Eastern Region of the main island, between Marsamxett Harbour to the west and the Grand Harbour to the east, its population in 2014 was 6,444,[4] while the metropolitan area around it has a population of 393,938.[2] Valletta is the southernmost capital of Europe, and at just 0.8 square kilometres, it is the European Union's smallest capital city.[5]"
+    }
+  },
+  {
+    "name": "Chicago",
+    "meta": {
+      "title": "City of Chicago",
+      "description": "Chicago (/ʃɪˈkɑːɡoʊ/ (About this soundlisten), locally also /ʃɪˈkɔːɡoʊ/), officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third most populous city in the United States. With an estimated population of 2,705,994 (2018), it is also the most populous city in the Midwestern United States. Chicago is the county seat of Cook County, the second most populous county in the US, with a small portion of the northwest side of the city extending into DuPage County near O'Hare Airport. Chicago is the principal city of the Chicago metropolitan area, often referred to as Chicagoland. At nearly 10 million people, the metropolitan area is the third most populous in the United States."
+    }
+  }
+]
