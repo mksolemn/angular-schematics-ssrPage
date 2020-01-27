@@ -63,8 +63,6 @@ export function paGen(_tree: Tree, _options: Schema, _context: SchematicContext)
     const paGen: PaGen = new PaGen(pages, _options, _tree, _context);
     const rules: Rule[] = [];
 
-    //paGen.configureForProject(); //todo: tomastrajas youtube tutorial on schematics
-
     paGen.getPagesData()
         .forEach(page => {
             if (page) {

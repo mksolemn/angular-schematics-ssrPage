@@ -11,7 +11,7 @@
         "$source": "argv",
         "index": 0
       },
-      "x-prompt": "Where would you like to deploy pages?"
+      "x-prompt": "Are you sure you want to generate pages? (all other pages will be overridden)"
     }
   },
   "required": [
