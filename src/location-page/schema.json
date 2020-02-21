@@ -4,17 +4,20 @@
   "title": "Location page with SSR",
   "description": "Pre-generate pages describing locations",
   "properties": {
+    "override": {
+      "type": "boolean",
+      "default": false,
+      "description": "Confirm overriding existing pages Y/n",
+      "x-prompt": "Are you sure you want to generate pages? (all other '/pages' will be overridden)"
+    },
     "path": {
       "type": "string",
-      "description": "Path for new module output",
-      "$default": {
-        "$source": "argv",
-        "index": 0
-      },
-      "x-prompt": "Are you sure you want to generate pages? (all other pages will be overridden)"
+      "default": "pages",
+      "description": "Path to generate pages",
+      "x-prompt": "Where would you like your pages generated?"
     }
   },
   "required": [
-    "path"
+    "override"
   ]
 }

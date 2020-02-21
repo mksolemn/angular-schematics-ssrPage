@@ -41,12 +41,12 @@ export class PaGen {
         return data;
     }
 
-    formatName(name: string) {
+    formatName(name: string): string {
         return name.replace(/[^A-Z0-9]+/ig, '-');
     }
 
-    escapeQuotes( text: string ) {
-        return text.replace(/'/g, "\\'");
+    escapeQuotes(text: string): string {
+        return text.replace(/'/g, '\\\'');
     }
 
     configureForProject() {
@@ -56,7 +56,6 @@ export class PaGen {
         const path = this._options.path || buildDefaultPath(project as any);
         const parsedPath = parseName(path, this._options.name);
     }
-
 }
 
 export function paGen(_tree: Tree, _options: Schema, _context: SchematicContext): Rule {
@@ -65,21 +64,20 @@ export function paGen(_tree: Tree, _options: Schema, _context: SchematicContext)
 
     paGen.getPagesData()
         .forEach(page => {
-            if (page) {
 
+            if (page) {
                 const sourceTemplates = url('./templates');
-                const sourceParametrizedTemplates = apply(sourceTemplates, [
-                    template({
-                        ...page,
-                        ...strings
-                    }), move('.')
-                ]);
+                const destTemplate = [template({...page, ...strings}), move('.')];
+                const sourceParametrizedTemplates = apply(sourceTemplates, destTemplate);
+
                 rules.push(mergeWith(sourceParametrizedTemplates, MergeStrategy.Overwrite));
                 chain(rules);
+                if (_tree.exists(destTemplate.values('path'))) {
+
+                }
             }
+
         });
 
-    return () => {
-        return chain(rules);
-    }
+    return chain(rules);
 }
